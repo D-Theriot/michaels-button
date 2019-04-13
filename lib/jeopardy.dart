@@ -28,7 +28,7 @@ class JeopardyState extends State<Jeopardy> {
   Widget build(BuildContext context) {
     // Container is background
     return Container( 
-      color: Colors.orange,
+      color: Colors.blueGrey,
       // Center to center
       child: Center(
         // Column to hold the multiple buttons
@@ -47,11 +47,11 @@ class JeopardyState extends State<Jeopardy> {
                 child: ButtonTheme(
                 minWidth: 300.0,
                 height: 300.0,
-                buttonColor: Colors.white,
+                buttonColor: Colors.green,
                 child: RaisedButton(
                 onPressed: () => audioCache.play('jeopardySong.mp3'), // Find way to play/stop w/ one button?
                 child: Text(
-                    "PLAY", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 100.0)
+                    "PLAY", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 100.0, color: Colors.white)
                     )
                   )
                 )
@@ -62,7 +62,7 @@ class JeopardyState extends State<Jeopardy> {
                 child: ButtonTheme(
                   minWidth: 100.0,
                   height: 100.0,
-                  buttonColor: Colors.black,
+                  buttonColor: Colors.red,
                   child: RaisedButton(
                     onPressed: () => advancedPlayer.stop(),
                     child: Text(
@@ -71,10 +71,14 @@ class JeopardyState extends State<Jeopardy> {
                   )
                 )
               ),
-              Padding(padding: EdgeInsets.all(5.0)),
+              Padding(padding: EdgeInsets.all(10.0)),
               // Fourth is copyright
-              Text("Made by Dylan T.", style: TextStyle(fontSize: 10.0, color: Colors.blue)),
-            ],
+              Container (
+                alignment: Alignment(0.9, 1),
+                child: Text("Made by Dylan T.", style: TextStyle(fontSize: 10.0, color: Colors.white)
+                )
+            )
+          ],
         ),
       )
     );
