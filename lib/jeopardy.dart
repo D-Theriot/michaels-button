@@ -27,7 +27,7 @@ class JeopardyState extends State<Jeopardy> {
   @override
   Widget build(BuildContext context) {
     // Container is background
-    return Container( 
+    return Material (child: Container( 
       color: Colors.blueGrey,
       // Center to center
       child: Center(
@@ -75,12 +75,13 @@ class JeopardyState extends State<Jeopardy> {
               // Fourth is copyright
               Container (
                 alignment: Alignment(0.9, 1),
-                child: Text("Made by Dylan T.", style: TextStyle(fontSize: 10.0, color: Colors.white)
+                child: Text("Made by Dylan Theriot", style: TextStyle(fontSize: 10.0, color: Colors.white)
                 )
             )
           ],
         ),
-      )
+      ),
+    ),
     );
   }
 }
