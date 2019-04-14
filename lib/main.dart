@@ -3,7 +3,7 @@ import 'package:michael_jeopardy/jeopardy.dart';
 
 void main() {
   runApp(MaterialApp(
-    title: "Michael's Personal Jeopardy App",
+    title: "Michael's Button",
     debugShowCheckedModeBanner: false,
     home: Jeopardy(),
   ));
