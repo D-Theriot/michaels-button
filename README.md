@@ -1,16 +1,14 @@
-# michael_jeopardy
+# Michael's Button
+Professor Michael is an amazing teacher. Not only is he well spoken, but he's patient and kind with his students. Unfortunately, there comes a time in every teacher's life when they ask a question and that question is met with silence from the classroom...
+Professor Michael gets around this though. Instead of waiting, awkwardly, wading through the silence - he sings. He hums to himself and to the class the iconic Jeopardy song. But doing this day in and day out, week by week, can be tiring.
 
-A new Flutter project.
+So I knew there HAD to be an easier way. And thus, Michael's Button was born. Instead of having to hum the song, or load it on youtube, Professor Michael could now play it with the click of the button. His beautiful voice could be saved. This is Michael's Button.
 
-## Getting Started
+# What I Learned
+This was my very first original Flutter app. All other apps I had created were made following a tutorial. I got to practice my UI skills, my Flutter/Dart programming, and developed a good sense for what needed to work on in Flutter for the future. I also learned how to use AudioPlayers which was neat! I learned about pubspec.yaml files as well and how to utilize Flutter's open source capabilities to the fullest potential. It was very fun and very basic. A good place to start!
 
-This project is a starting point for a Flutter application.
+# The Next Step
+I'd like to take what I learned here and make it on a larger scale. Although this readme file is written post-creation of my Avengers Soundboard, I made the Avengers Soundboard as an extension of this project. I took all the small tools and tricks I learned in this application and made them on a grander scale! I would still like to get this app in an app store. So that way Professor Michael will finally be able to have his own version of this app. One day...
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## Image
+<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/characterSelect.PNG" alt="App Screen" width="150"/> 
