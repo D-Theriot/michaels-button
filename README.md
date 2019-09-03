@@ -11,4 +11,4 @@ This was my very first original Flutter app. All other apps I had created were m
 I'd like to take what I learned here and make it on a larger scale. Although this readme file is written post-creation of my Avengers Soundboard, I made the Avengers Soundboard as an extension of this project. I took all the small tools and tricks I learned in this application and made them on a grander scale! I would still like to get this app in an app store. So that way Professor Michael will finally be able to have his own version of this app. One day...
 
 ## Image
-<img src="https://github.com/dylantheriot/avengers_soundboard/blob/master/readme_images/characterSelect.PNG" alt="App Screen" width="150"/> 
+<img src="https://github.com/dylantheriot/michaels-button/blob/master/assets/readme_img.PNG" alt="App Screen" width="150"/> 
